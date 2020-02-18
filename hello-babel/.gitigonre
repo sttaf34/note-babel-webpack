@@ -1,0 +1,10 @@
+node_modules/
+build/
+
+.cache/
+
+.DS_Store
+.env
+
+yarn-debug.log
+yarn-error.log
