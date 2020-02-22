@@ -1,0 +1,17 @@
+version: "3"
+services:
+  db:
+    build:
+      context: db
+      dockerfile: Dockerfile
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: sample
+    ports:
+      - "3306:3306"
+  application:
+    build:
+      context: application
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
