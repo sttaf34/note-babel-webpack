@@ -1,0 +1,9 @@
+version: "3"
+services:
+  application:
+    image: phpstorm/php-71-apache-xdebug-26:latest
+    volumes:
+      - ./html:/var/www/html
+      - ./php.ini:/usr/local/etc/php/php.ini
+    ports:
+      - "80:80"
