@@ -12,6 +12,6 @@ https://qiita.com/TakamiChie/items/9e53e1a3e180c5c8c88f
 - そのブレークポイントの箇所を通るように、ブラウザ等でアクセスする。
 - ブレークポイントで止まる。
 
-#  Docker コンテナ内から見た Windows のポートの調べ方
+# Docker コンテナ内から見た Windows のポートの調べ方
 - VirtualBox のアプリからターミナルを起動
 - ip r の一番上の行のIPアドレス
