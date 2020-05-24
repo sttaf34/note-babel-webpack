@@ -1,0 +1,16 @@
+{
+  "name": "hello-stylelint",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "lint:css": "stylelint **/*.css"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "stylelint": "^13.5.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2"
+  }
+}
