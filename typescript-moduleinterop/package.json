@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "tsc main.ts"
+  },
+  "dependencies": {
+    "@types/moment": "^2.13.0",
+    "moment": "^2.26.0",
+    "typescript": "^3.8.3"
+  }
+}
