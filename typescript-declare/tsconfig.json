@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",     // JSへの変換時にどのような規格でexportするか
+    "target": "es2015",       // JSへの変換時にどのバージョンにするか
+    "sourceMap": true,        // デバッガ等で利用する.mapを出力するか否か
+    "outDir": "./build/",     // JSへの変換したファイルの出力先
+    "strictNullChecks": true, // ヌルチェックを厳密に
+    "strict": true,           // 型チェックを厳密に
+  },
+
+  // 変換対象ファイル指定
+  "include": [
+    "**/src/**/*.ts"
+  ],
+
+  // 変換対象ファイル除外指定
+  "exclude": [
+    "node_modules"
+  ]
+}
